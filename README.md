@@ -119,7 +119,7 @@ Azure Container Apps 핸즈온랩에 오신 것을 환영합니다! 이 핸즈�
 - `docker pull nginx:latest`
   - 컨테이너 이미지를 레지스트리에 푸시합니다.
 2. Azure CLI를 통해 생성한 ACR에 접속합니다.
-- `az acr login --name ACAHoL) `
+- `az acr login --name ACAHoL `
 3. Docker 이미지에 태그를 설정합니다.
 - `docker tag nginx:latest acahol.azurecr.io/nginx:latest`
 4. Docker이미지를 Push합니다.
